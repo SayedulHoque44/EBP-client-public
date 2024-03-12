@@ -1,0 +1,25 @@
+.file-input {
+  display: inline-block;
+  padding-right: 0;
+  position: relative;
+}
+
+.file-input__input {
+  display: none;
+}
+
+.file-input__label {
+  display: flex;
+  width: 100%;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.file-input__text {
+  margin-right: 10px;
+}
+
+.file-input__icon {
+  font-size: 20px;
+}
